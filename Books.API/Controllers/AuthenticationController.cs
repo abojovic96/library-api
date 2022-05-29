@@ -20,6 +20,7 @@ namespace Books.API.Controllers
 
         [HttpPost]
         [Route("login")]
+        // This method is used for logging purposes.
         public async Task<IActionResult> Login([FromBody] LoginRequest loginRequest)
         {
             if (!ModelState.IsValid)
