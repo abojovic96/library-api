@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 
 namespace Books.API.Controllers
 {
+    // Controller used for handling genres.
     [Route("api/[controller]")]
     [ApiController]
     public class GenresController : ControllerBase
